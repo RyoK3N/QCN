@@ -104,4 +104,4 @@ if __name__ == "__main__":
 
     batch_size = 32 
     train_loader = qc_loader.prepare_data(batch_size,is_training=True)
-    print("Loaded the data using prepare_data ")
+    print("\nLoaded the data using prepare_data ")
